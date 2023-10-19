@@ -20,8 +20,16 @@
 
   <body>
     <header class="bg-amber-100 py-20 px-4 md:px-20">
-      <nav></nav>
-      <div class="flex flex-col md:flex-row justify-evenly items-center">
+      <nav class="grid grid-cols-1 px-3 lg:grid-cols-2">
+        <div class="max-w-sm"><img src="./icons/logo.png" alt="" /></div>
+        <div class="grid grid-cols-1 text-center pt-6 pb-6 lg:grid-cols-4">
+          <div><a href="">Home</a></div>
+          <div><a href="">Product</a></div>
+          <div><a href="">About us</a></div>
+          <div><a href="">Contact us</a></div>
+        </div>
+      </nav>
+      <div class="flex flex-col md:flex-row justify-evenly items-center pt-5">
         <div class="space-y-3">
           <h1 class="text-7xl uppercase font-bebas">
             Be the Penguins <br /><span class="text-[#FABE4C]">of winter</span>
@@ -55,7 +63,7 @@
     <main class="max-w-7xl mx-auto">
       <!-- Woman jacket -->
       <section class="py-12">
-        <h3 class="text-5xl font-bebas">Woman Jackets</h3>
+        <h3 class="text-5xl font-bebas ml-10">Woman Jackets</h3>
         <!-- jackets-container -->
         <div class="grid grid-cols-1 px-3 md:grid-cols-2 lg:grid-cols-3 gap-7">
           <div class="space-y-3 drop-shadow-lg">
@@ -154,6 +162,30 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="max-w-7xl mx-auto grid grid-cols-2">
+      <div>
+        <div>
+          <img class="h-auto max-w-xl" src="./icons/house.png" alt="" />
+          <h4>Find the Perfect Fit</h4>
+          <p>
+            Everybody is different, which is why we offer styles for every body.
+          </p>
+        </div>
+        <div>
+          <img src="./icons/box.png" alt="" />
+          <h4>Free Exchanges</h4>
+          <p>One of the many reasons you can shop with peace of mind.</p>
+        </div>
+        <div>
+          <img src="./icons/question.png" alt="" />
+          <h4>Contact Our Seller</h4>
+          <p>
+            They are here to help you. That's quite literally what we pay them
+            for.
+          </p>
+        </div>
+      </div>
+      <div><img src="./images/shopping.png" alt="" /></div>
+    </footer>
   </body>
 </html>
